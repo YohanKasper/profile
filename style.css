@@ -1,0 +1,111 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2, h3 {
+  color: #091E3F;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: #606469;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  }
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+#avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url(images/yohanfranquelin.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  position: relative;
+}
+
+#contour_avatar {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: -5px;
+  margin-left: 255px;
+  margin-top: -5px;
+  background-color: transparent;
+  border: 1px solid #FED200;
+}
+
+#socials i {
+  color: #0F92FF;
+  font-size: 50px;
+  padding: 5px;
+  margin: auto;
+}
+
+#socials i:hover {
+  color: #FED200;
+}
+
+#intro {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#button {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #0F92FF;
+}
+
+#button:hover {
+  background: #FED200;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
